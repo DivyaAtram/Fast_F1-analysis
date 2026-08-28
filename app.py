@@ -24,8 +24,8 @@ st.markdown("""
 
     /* Main background */
     .stApp {
-        background-color: #0b0b0f;
-        color: white;
+        background-color: white;
+        color: black;
     }
 
     /* Sidebar */
@@ -66,14 +66,14 @@ st.markdown("""
     }
 
     .metric-value {
-        color: white;
+        color: black;
         font-size: 30px;
         font-weight: 700;
     }
 
     /* Section headings */
     h2, h3 {
-        color: white !important;
+        color: black !important;
     }
 
     /* Divider */
