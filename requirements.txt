@@ -1,5 +1,6 @@
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
-fastf1
 streamlit
+pyplot
+numpy
