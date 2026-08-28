@@ -92,7 +92,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("../Datasets/F1_2025_GP.csv")
+    df = pd.read_csv("F1_2025_GP.csv")
 
     # Remove unwanted index column
     if "Unnamed: 0" in df.columns:
