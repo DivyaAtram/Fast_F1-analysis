@@ -607,7 +607,7 @@ st.markdown("---")
 st.header("🏁 Race Status Analysis")
 
 status_count = (
-    filtered_df["TimeStatus"]
+    filtered_df["Status"]
     .value_counts()
     .reset_index()
 )
